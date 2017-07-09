@@ -96,5 +96,5 @@ if [ "$BUILDFROM" != "travis" ]; then
 	useradd nagios
 	groupadd nagios
 else
-	sudo useradd nagios
+	useradd nagios
 fi
